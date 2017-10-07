@@ -1,0 +1,55 @@
+<view class="c-minheight a">
+    <swiper class="b" indicator-dots="True" lower-threshold="50">
+
+        <swiper-item class="c-full">
+            <navigator class="c" hover-class="navigator-hover">
+                <image class="d" mode="scaleToFill" 
+                src="/pic/y1.png" style="background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat;"/>
+            </navigator>
+        </swiper-item>
+
+        <swiper-item class="c-full">
+            <navigator bindtap="tap" class="c"
+            hover-class="navigator-hover">
+                <image class="d" mode="scaleToFill" 
+                src="/pic/y2.png" style="background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat; "/>
+            </navigator>
+        </swiper-item>
+
+        <swiper-item class="c-full">
+            <navigator class="c" hover-class="navigator-hover">
+                <image class="d" mode="scaleToFill" 
+                src="/pic/y3.png" style="background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat; "/>
+            </navigator>
+        </swiper-item>
+    </swiper>
+</view>
+
+<view class="c-minheight e">
+
+        <block wx:for="{{malls}}" wx:for-index="idx" wx:for-item="itemName">
+            <view class="c-minheight bottomGrayboder h">
+                <navigator data-tap="{{itemName.tap}}" catchtap="navTo" class="i" hover-class="navigator-hover">
+                    <view>
+                    <image class="j" mode="aspectFill" src="{{itemName.src}}" style="background-size: cover; background-position: center center; background-repeat: no-repeat; "/>
+                    </view>
+                    <view class="k">
+                    
+                        <view class="kk">
+                        <text class="c-block c-ellipse l">{{itemName.name}}</text>
+                        <text class="c-block c-ellipse m">{{itemName.describe}}</text>
+                        </view>
+                        <view class="kkk">
+                        <view class="kk1">
+                        
+                        </view>
+                        <view class="kk2">
+                        <image class="kimg" src="{{itemName.zzsrc}}" catchtap="zan" data-index="{{idx}}"></image>
+                        </view>
+                        </view>
+                    </view>
+                </navigator>
+            </view>
+        </block>
+
+</view>

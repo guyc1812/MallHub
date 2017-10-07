@@ -1,0 +1,92 @@
+<view class="c-minheight a">
+    <view class="b" >
+
+        <image class="c" mode="aspectFill" src="{{mallInfo.logo}}" />
+
+        <view class="bt" >
+            <text class="c-block d">邻瑞广场</text>
+            <text class="c-block e">工业园区西华林街88号</text></view>
+        </view>
+
+        <view class="bb" >
+            <view class="bi" bindtap="location">
+                <image  mode="aspectFill" src="/pic/loc.png" style="width:33px;height:33px; "  />
+            </view>
+        </view>
+
+    </view>
+
+    <view class="c-minheight aa">
+        <view class="bm" >
+            <view class="bm1">营业时间</view>
+            <view class="bm2">10:00 - 22:00 </view>
+        </view>
+        <view class="bm" >
+            <view class="bm1">客服邮箱</view>
+            <view class="bm2">customerservice@link-city.cn</view>
+        </view>
+        <view class="bm" >
+            <view class="bm1">服务热线</view>
+            <view class="bm2">400-8840-100</view>
+        </view>
+        <view class="bm" >
+            <view class="bm1">停车信息</view>
+            <view class="bm2">地下停车场</view>
+        </view>
+        <view class="bm" >
+            <view class="bm1">公共交通</view>
+            <view class="bm2">邻瑞广场站：205、178；邻瑞广场北站：18、27、52、100、118、126、141、142、146、168、218、518</view>
+        </view>
+    </view>
+
+
+    <view class="c-minheight f">
+
+
+        <view class="t">
+            <view class="t1"><view class="tt1">商场活动：</view></view>
+            <view class="t2">
+                <swiper class="s" vertical="true" autoplay="true" interval="2000" duration="1000" circular="true">
+                        <swiper-item class="s1">
+                            <view class="s2">全场限时八折优惠</view>
+                        </swiper-item>
+                        <swiper-item class="s1">
+                            <view class="s2">累计满500返70</view>
+                        </swiper-item>
+                        <swiper-item class="s1">
+                            <view class="s2">会员三倍积分</view>
+                        </swiper-item>
+                </swiper>
+            </view>
+            <view class="t3">
+                <navigator class="tt3" bindtap="more">更多 > </navigator>
+            </view>
+        </view>
+
+
+        <view class="c-minheight i">
+
+            <view class="c-minheight j">
+                <block wx:for="{{navList}}">
+                    <view class="k ">
+                        <text class="c-block l {{curNav == item.id ? 'selected' : ''}}" bindtap="selectNav" data-index="{{index}}" data-id="{{item.id}}">{{item.name}}</text>
+                    </view>
+                </block>
+            </view>
+
+            <view class="c-minheight u">
+                    <view class="c-minheight v">
+                        <block wx:for="{{classifyList[curIndex]}}">
+                        <navigator class="w" hover-class="navigator-hover">
+                            <image class="x" mode="aspectFill" src='{{item.src}}' />
+                            <view class="y">
+                                <text class="c-block z">{{item.name}}</text>
+                            </view>
+                        </navigator>
+                        </block>
+                    </view>
+            </view>
+        </view>
+</view>
+
+

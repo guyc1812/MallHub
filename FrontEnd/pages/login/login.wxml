@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+
+	<view class="c" >
+		<view class="c2" hidden="{{hidden}}" animation="{{animationData1}}">
+		<image class="user" src="{{userInfo.avatarUrl}}" background-size="cover" mode="aspectFit"></image>
+		<text class="useri">{{userInfo.nickName}}</text>
+		</view>
+	</view>
+
+	<view class="c1" animation="{{animationData2}}">
+		<view class="img">
+			<image class="logo" src="/pic/LOGO.png" background-size="cover" mode="aspectFit"></image>
+		</view>
+		<view class="text">
+			<text class="mallhub">Mall Hub</text>
+		</view>
+	</view>
+</view>
+
+<view class="button">
+<button class="btn" bindtap="login" type="primary" size="default" > 登  入</button>
+</view>

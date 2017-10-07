@@ -1,0 +1,29 @@
+<view class="container">
+	<view class="dangqianView" >
+	    <text class="dangqian" >当前城市</text>
+	    <text class="city">{{city}}</text>
+	    <navigator class="nav" hover-class="navigator-hover">
+	        <text catchtap="tap" class="zhuandao" act_id="zhuan" id="dao">></text>
+	    </navigator>
+	</view>
+	<view class="a">
+	    <view class="b">
+	        <text class="c">热门城市</text>
+	    </view>
+	    <scroll-view class="s" lower-threshold="50" scroll-y="True" style="overflow-x: hidden; overflow-y: auto;" upper-threshold="50">
+
+	    	<text class="text" bindtap="xuanze" wx:for="{{remen}}" id="{{item}}">{{item}}</text>
+
+	    </scroll-view>
+	</view>
+	<view class="a">
+	    <view class="b">
+	        <text class="c">其他城市</text>
+	    </view>
+	    <scroll-view class="s" lower-threshold="50" scroll-y="True" style="overflow-x: hidden; overflow-y: auto;" upper-threshold="50">
+
+	    	<text class="text" bindtap="xuanze" wx:for="{{qita}}" id="{{item}}">{{item}}</text>
+
+	    </scroll-view>
+	</view>
+</view>

@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/city/city",
+    "pages/suzhou/suzhou",
+    "pages/mall/mall",
+    "pages/linrui/linrui"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "MallHub",
+    "navigationBarTextStyle":"black"
+  }
+}

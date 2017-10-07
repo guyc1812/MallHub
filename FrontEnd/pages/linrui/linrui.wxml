@@ -1,0 +1,34 @@
+<view class="c-minheight v1" >
+    <view class="c-minheight v" >
+        <swiper class="image" indicator-dots="True" lower-threshold="50">
+            <swiper-item class="c-full">
+                <image class="image" mode="scaleToFill" src="/pic/11.jpg" style="background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat;"/>
+            </swiper-item>
+            <swiper-item class="c-full">
+                <image class="image" mode="scaleToFill" src="/pic/12.png" style="background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat;"/>
+            </swiper-item>
+            <swiper-item class="c-full">
+                <image class="image" mode="scaleToFill" src="/pic/13.png" style="background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat;"/>
+            </swiper-item>
+        </swiper>
+    </view>
+    <view class="title">商场概况</view>
+</view>
+
+<view class="c-minheight v2">
+    <view class="c-minheight v">
+        <swiper class="image" indicator-dots="True" lower-threshold="50">
+            <swiper-item class="c-full">
+                <image class="image" mode="scaleToFill" src="/pic/21.jpg" style="background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat;"/>
+            </swiper-item>
+            <swiper-item class="c-full">
+                <image class="image" mode="scaleToFill" src="/pic/22.png" style="background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat;"/>
+            </swiper-item>
+            <swiper-item class="c-full">
+                <image class="image" mode="scaleToFill" src="/pic/23.jpg" style="background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat;"/>
+            </swiper-item>
+        </swiper>
+    </view>
+     <view class="title">活动详情</view>
+</view>
+

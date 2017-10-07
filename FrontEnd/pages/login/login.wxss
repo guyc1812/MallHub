@@ -1,0 +1,88 @@
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+
+}
+.c {
+	height: 132px;
+	width: 102px;
+	display: flex;
+	flex-direction: column;
+
+}
+.c1 {
+	width: 125px;
+	display: flex;
+	flex-direction: column;
+	
+
+}
+.c2 {
+	height: 132px;
+	width: 102px;
+	display: flex;
+	flex-direction: column;
+
+}
+.logo{
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.27);
+	background-color: rgb(255, 255, 255);
+	-ms-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.27);
+	-o-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.27);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.27); 
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.27);
+}
+.img {
+	height: 125px;
+	width: 125px;
+
+}
+.text{
+	font-size: 22px;
+
+  	height: 25px;
+	width: 125px;
+  	margin-top: 15px;
+  	display: flex;
+  	justify-content: center;
+}
+.button{
+	/*background-color: blue;*/
+	margin-top: 200px;
+	justify-content: center;
+}
+
+
+.btn{
+	width: 60%;
+	margin: auto;
+}
+
+.useri {
+  	height: 20px;
+	width: 102px;
+  	margin-top: 11px;
+	margin-bottom: 2px;
+  	display: flex;
+  	justify-content: center;
+}
+
+.user {
+  	width: 99px;
+  	height: 100px;
+  	border-radius: 50%;
+  	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.27); 
+  	background-color: rgb(255, 255, 255); 
+  	-ms-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.27);
+  	-o-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.27); 
+  	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.27); 
+  	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.27);
+  
+}

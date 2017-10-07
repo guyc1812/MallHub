@@ -1,0 +1,14 @@
+{
+    "navigationBarTitleText": "邻瑞广场",
+    
+    "tabBar": {
+    	"list": [{
+      		"pagePath": "pages/login/login",
+      		"text": "首页"
+    		},{
+      		"pagePath": "pages/login/login",
+      		"text": "日志"
+    	}]
+    }
+  
+}
